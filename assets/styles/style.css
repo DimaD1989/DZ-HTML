@@ -22,6 +22,9 @@
     );
 }
 
+html {
+    font-family: 'Gilroy-Semibold';
+}
 /* body {
     margin: 0;
 } */
