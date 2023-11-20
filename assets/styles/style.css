@@ -17,14 +17,16 @@ ul {
 
 .menu {
     /* в одну строчку */
+    margin-left: 500px;
+    width: 533px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     display: flex;
-    justify-content:right;
-    align-items: center;
-    height: 51px;
+    justify-content: space-between;
     list-style: none;
-    gap: 30px;
-    margin-top: 40px;
-    margin-bottom: 82.71px;
+
 }
 
 .menu-nav1{
