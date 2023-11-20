@@ -10,5 +10,6 @@ ul {
     padding: 0;
 }
 .header {
-   background-color:white;
+    width: 1087px;
+    margin: 0 auto;
 }
