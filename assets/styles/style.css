@@ -25,9 +25,14 @@
 html {
     font-family: 'Gilroy-Semibold';
 }
-/* body {
-    margin: 0;
-} */
+body {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    font-family: 'Gilroy-Medium';
+   
+}
 
 * {
     margin: 0;
@@ -39,10 +44,24 @@ ul {
     padding: 0;
 }
 .header {
-   background-color: white;
-   color: #000;
-   height: 100px;
+    width: 1087px;
+    margin: 0 auto;
+
 }
+
+.top_logo_with_text{
+    width: 136px;
+    display: flex;
+    
+}
+.top_menu_with_pic{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 82.71px;
+}
+
 
 .menu {
     /* в одну строчку */
@@ -58,6 +77,19 @@ ul {
 
 }
 
+.top_logo_with_text{
+    width: 136px;
+    display: flex;
+}
+.top_menu_with_pic{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 82.71px;
+}
+
+
 .menu-nav1{
     color: #F25822;
     font-family: 'Gilroy-Bold';
@@ -66,7 +98,90 @@ ul {
 }
 .menu-nav2{
     color: #000;
-    
-    
+}
+
+
+.top_content{
+    margin-top: 162.71px;
+    margin-bottom: 162.45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.title{
+    margin-bottom: 17px;
+    width: 522px;
+    font-size: 60px;
+    font-family: "Gilroy-Bold";
+
+}
+.text{
+    width: 466px;
+    color: #888;
+    font-size: 20px;
+}
+
+.top_buttons{
+    margin-top: 37px;
+    width: 302px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 72px;
    
 }
+.btn1{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border-style: none;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px; 
+       
+
+}
+.btn2{
+    color: #AAA;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-style: none;
+    background-color: white;
+}
+
+.top_logos{
+    margin-top: 162.45px;
+    display: flex;
+	justify-content: space-between;
+}
+
+.main_content_top{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    gap: 59px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+
+}
+.main_top_logos{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-right: 31px;
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
