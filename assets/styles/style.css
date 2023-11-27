@@ -44,10 +44,22 @@ ul {
     padding: 0;
 }
 .header {
-    width: 1087px;
+    width: 1170px;
     margin: 0 auto;
 
 }
+
+.top {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
+
 
 .top_logo_with_text{
     width: 136px;
@@ -102,6 +114,8 @@ ul {
 
 
 .top_content{
+    width: 1170px; 
+    margin: 162px auto;
     margin-top: 162.71px;
     margin-bottom: 162.45px;
     display: flex;
@@ -184,4 +198,48 @@ ul {
     font-weight: 400;
    
 }
+
+.features {
+    max-width: 310px;
+    height: 226px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titledown {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textdown {
+    width: 100%;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buttondown {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.icon {
+    width: 70px;
+    height: 70px;
+
+}
+
 
