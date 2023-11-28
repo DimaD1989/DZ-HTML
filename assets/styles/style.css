@@ -243,3 +243,100 @@ ul {
 }
 
 
+
+
+
+
+.main {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline {
+    margin-top: 92px;
+    max-width: 579px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_main {
+    margin-top: 19px;
+    max-width: 682px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.services {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.service {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signboard {
+    width: 370px;
+    height: 270px;
+}
+
+.text_service {
+    width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 22px;
+}
+
+.button_service {
+    margin-top: 39px;
+    position: relative;
+}
+
+.button_form {
+    /*some style*/
+}
+
+.service_text {
+    position: absolute;
+    top: 17px;
+    left: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.arrow {
+    position: absolute;
+    top: 22px;
+    right: 45px;
+}
+
+.external_block {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
